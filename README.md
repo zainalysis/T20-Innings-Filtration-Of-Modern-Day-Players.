@@ -1,11 +1,14 @@
 **Career Innings Filtration Using XRuns Prediction**
+
 **Project Overview**
+
 This project focuses on filtering and analyzing career innings of some of the top modern-day T20 cricketers using a custom-built model based on Expected Runs (XRuns). The model utilizes various match factors to predict the expected runs a batter might score on a particular ball. By comparing the actual runs scored (batruns) with the predicted XRuns, we calculate a metric called RAAR (Runs Above Average Replacement) to evaluate the batter's impact on the game.
 
 **Files and Data**
 **Key Files:**
+_colabnotebook_: https://colab.research.google.com/drive/14Jb4bRV7ogSCXZXd568HV0pjVcved6dO?usp=drive_link
 _modelpred.csv:_ Contains ball-by-ball data for multiple T20 matches, including innings run rates, balls remaining, wickets down, and batter performances.
-https://drive.google.com/file/d/1b2e9vE66lqfIfDgoIxDFx-YzZCT8jNO9/view?usp=sharing
+(https://drive.google.com/file/d/1b2e9vE66lqfIfDgoIxDFx-YzZCT8jNO9/view?usp=sharing)
 _ball_by_ball_expectedruns.cs_v: Output file after calculating XRuns for each ball. 
 
 _ball_by_ball_expectedruns_with_RAAR.csv:_ Output file with added RAAR column after comparing actual runs with XRuns.
